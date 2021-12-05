@@ -1,0 +1,24 @@
+{
+   "type": "oracle",
+   "host": "localhost",
+   "username": "gamal ",
+   "password": "123456789",
+   "port": 1521,
+   "serviceName": "XEPDB1",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/**/*.entity.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
